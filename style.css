@@ -1,0 +1,76 @@
+body {
+    background-color: #000000; /* fond noir */
+    color: #ffffff; /* texte blanc */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #FFD700; /* or */
+    margin-bottom: 30px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto; /* centre le tableau */
+    border-collapse: collapse;
+    box-shadow: 0 0 15px #FFD700;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #FFD700;
+}
+
+th {
+    background-color: #1a1a1a;
+    color: #FFD700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+td {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Alignement spécifique */
+td:nth-child(4), td:nth-child(5) {
+    text-align: right; /* Qté et Prix alignés à droite */
+}
+
+/* Effet survol */
+tr:hover td {
+    background-color: #444444;
+}
+
+/* Lien sur l’intitulé des livres */
+td a {
+    color: #FFD700; /* or */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td a:hover {
+    text-decoration: underline;
+    color: #FFA500; /* orangé au survol */
+}
+
+/* Lien Retour en arrière */
+a.retour {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #FFD700; /* or vif */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a.retour:hover {
+    color: #FFA500; /* orange au survol */
+    text-decoration: underline;
+}

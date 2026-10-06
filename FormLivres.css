@@ -1,0 +1,82 @@
+body {
+    background-color: #000000; /* noir */
+    color: #ffffff; /* texte blanc */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #FFD700; /* or */
+    margin-top: 30px;
+}
+
+form {
+    background-color: #1a1a1a; /* noir légèrement différent */
+    border: 2px solid #FFD700; /* contour or */
+    border-radius: 10px;
+    width: 400px;
+    margin: 50px auto; /* centre le formulaire */
+    padding: 20px;
+    box-shadow: 0 0 15px #FFD700;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+    color: #ffffff;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #FFD700;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+input[type="reset"], input[type="submit"] {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Couleurs différentes pour les boutons */
+input[type="reset"] {
+    background-color: #FF4500; /* orange vif */
+    color: #ffffff;
+}
+
+input[type="submit"] {
+    background-color: #32CD32; /* vert lime */
+    color: #ffffff;
+}
+
+input[type="reset"]:hover {
+    background-color: #e63900;
+}
+
+input[type="submit"]:hover {
+    background-color: #28a428;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}

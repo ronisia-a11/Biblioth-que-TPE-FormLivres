@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BIBLIOTHEQUE</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="FormLivres.css">
+</head>
+<body>
+    <h2>Formulaire d'enregistrement des livres</h2>
+    <form action="ecritLivres.php" method="get">
+        <table>
+            <tr>
+                <td>Code du livre :</td>
+                <td><input type="text" name="codeLivre" size="5"/></td>
+            </tr>
+            <tr>
+                <td>Auteur du livre :</td>
+                <td><input type="text" name="AuteurLivre" size="25"/></td>
+            </tr>
+            <tr>
+                <td>Intitulé livre :</td>
+                <td><input type="text" name="intitLivre" size="25"/></td>
+            </tr>
+            <tr>
+                <td>Nombre exemplaire :</td>
+                <td><input type="text" name="QteLivre" size="5"/></td>
+            </tr>
+            <tr>
+                <td>Prix du livre :</td>
+                <td><input type="text" name="PrixLivre" size="5"/></td>
+            </tr>
+        </table>
+        <p>
+            <input type="reset" value="Initialiser"/>
+            <input type="submit" value="Enregistrer"/>
+        </p>
+    </form>
+    <p><a href="lireFichier_tableau.php">Voir les livres</a></p>
+</body>
+</html>
